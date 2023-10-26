@@ -991,19 +991,19 @@ footer .copy {
 }
 
 .area {
-    width: 76rem;
-    height: 30rem;
+    width: 70rem;
+    height: 26rem;
     user-select: none;
     cursor: pointer;
 }
 
 .container {
     position: relative;
-    margin: 1.5rem auto;
-    width: 14rem;
+    margin: auto;
+    width: 18rem;
     height: 15rem;
     perspective: 53rem;
-    perspective-origin: 7rem 0px;
+    perspective-origin: 10rem 0px;
 }
 
 .cube {
@@ -1028,35 +1028,35 @@ footer .copy {
 }
 
 .front {
-    transform: translateZ(20rem);
+    transform: translateZ(26rem);
 }
 
 .first {
-    transform: rotateY(-45deg) translateZ(20rem);
+    transform: rotateY(-45deg) translateZ(26rem);
 }
 
 .second {
-    transform: rotateY(-90deg) translateZ(20rem);
+    transform: rotateY(-90deg) translateZ(26rem);
 }
 
 .third {
-    transform: rotateY(-135deg) translateZ(20rem);
+    transform: rotateY(-135deg) translateZ(26rem);
 }
 
 .fourth {
-    transform: rotateY(180deg) translateZ(20rem);
+    transform: rotateY(180deg) translateZ(26rem);
 }
 
 .fifth {
-    transform: rotateY(135deg) translateZ(20rem);
+    transform: rotateY(135deg) translateZ(26rem);
 }
 
 .sixth {
-    transform: rotateY(90deg) translateZ(20rem);
+    transform: rotateY(90deg) translateZ(26rem);
 }
 
 .seventh {
-    transform: rotateY(45deg) translateZ(20rem);
+    transform: rotateY(45deg) translateZ(26rem);
 }
 
 .arrow {
