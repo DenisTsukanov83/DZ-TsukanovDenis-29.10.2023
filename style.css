@@ -4,6 +4,10 @@
     font-family: arima;
 }
 
+html, body {
+    font-size: 1vw;
+}
+
 
 /* ___________header____________________ */
 header {
@@ -987,19 +991,19 @@ footer .copy {
 }
 
 .area {
-    width: 1000px;
-    height: 400px;
+    width: 76rem;
+    height: 30rem;
     user-select: none;
     cursor: pointer;
 }
 
 .container {
     position: relative;
-    margin: 20px auto;
-    width: 250px;
-    height: 200px;
-    perspective: 700px;
-    perspective-origin: 100px 0px;
+    margin: 1.5rem auto;
+    width: 14rem;
+    height: 15rem;
+    perspective: 53rem;
+    perspective-origin: 7rem 0px;
 }
 
 .cube {
@@ -1024,39 +1028,39 @@ footer .copy {
 }
 
 .front {
-    transform: translateZ(350px);
+    transform: translateZ(20rem);
 }
 
 .first {
-    transform: rotateY(-45deg) translateZ(350px);
+    transform: rotateY(-45deg) translateZ(20rem);
 }
 
 .second {
-    transform: rotateY(-90deg) translateZ(350px);
+    transform: rotateY(-90deg) translateZ(20rem);
 }
 
 .third {
-    transform: rotateY(-135deg) translateZ(350px);
+    transform: rotateY(-135deg) translateZ(20rem);
 }
 
 .fourth {
-    transform: rotateY(180deg) translateZ(350px);
+    transform: rotateY(180deg) translateZ(20rem);
 }
 
 .fifth {
-    transform: rotateY(135deg) translateZ(350px);
+    transform: rotateY(135deg) translateZ(20rem);
 }
 
 .sixth {
-    transform: rotateY(90deg) translateZ(350px);
+    transform: rotateY(90deg) translateZ(20rem);
 }
 
 .seventh {
-    transform: rotateY(45deg) translateZ(350px);
+    transform: rotateY(45deg) translateZ(20rem);
 }
 
 .arrow {
-    width: 60px;
+    width: 3rem;
     height: max-content;
     cursor: pointer;
 }
