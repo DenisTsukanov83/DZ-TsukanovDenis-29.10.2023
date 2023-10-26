@@ -1,0 +1,1067 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arima;
+}
+
+
+/* ___________header____________________ */
+header {
+    padding: 1%;
+    display: grid;
+    /* grid-template-columns: 1fr 4fr; */
+    grid-template-columns: repeat(2, 1fr);
+    border-bottom: 1px solid slategray;
+}
+
+.head_two img {
+    /* Размер изображений */
+    width: 20px;
+}
+
+.head_two {
+    /* Картинки */
+    display: flex;
+    gap: 30px;
+    justify-self: end;
+}
+
+.head_one .links {
+    display: flex;
+    gap: 30px;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-size: 14pt;
+    font-weight: bolder;
+}
+.head_one {
+    display: flex;
+    gap: 20px;
+}
+
+.head_one a {
+    text-decoration: none;
+    color: black;
+}
+
+.head_one a:hover {
+    color: cadetblue;
+}
+
+.menu {
+    display: none;
+}
+
+
+/* ___________main____________________ */
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(500px, auto);
+
+    border-bottom: 1px solid slategray
+}
+
+.gal_big {
+    width: 100%;
+    height: 1000px;
+}
+
+
+
+.box .gal_big img {
+    width: 100%;
+    height: 100%;
+}
+
+.box img {
+    width: 100%;
+    height: 100%;
+    /* height: 500px; */
+}
+
+.box .point {
+    display: flex;
+    gap: 1%;
+    justify-content: center;
+    z-index: 1;
+}
+
+.box .point a {
+    text-decoration: none;
+    color: none;
+}
+
+.box .point img {
+    width: 30px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.557);
+    margin-bottom: 30px;
+    border-radius: 50%;
+}
+
+.box .gal_gal {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.box .gal_gal>div:nth-child(1) {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.box .gal_gal>div:nth-child(2) {
+    grid-row: 1;
+    grid-column: 1;
+    align-self: end;
+}
+
+/* box1 */
+
+.box1 .gal_big {
+    width: 100%;
+    height: 350px;
+}
+
+
+
+.box1 .gal_big img {
+    width: 100%;
+    height: 100%;
+}
+
+.box1 img {
+    width: 100%;
+    height: 100%;
+    /* height: 500px; */
+}
+
+.box1 .point {
+    display: flex;
+    gap: 1%;
+    justify-content: center;
+    z-index: 1;
+}
+
+.box1 .point a {
+    text-decoration: none;
+    color: none;
+}
+
+.box1 .point img {
+    width: 30px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.557);
+    margin-bottom: 30px;
+    border-radius: 50%;
+}
+
+.box1 .gal_gal {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.box1 .gal_gal>div:nth-child(1) {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.box1 .gal_gal>div:nth-child(2) {
+    grid-row: 1;
+    grid-column: 1;
+    align-self: end;
+}
+
+/* box2 */
+
+.box2 .gal_big {
+    width: 100%;
+    height: 350px;
+}
+
+
+
+.box2 .gal_big img {
+    width: 100%;
+    height: 100%;
+}
+
+.box2 img {
+    width: 100%;
+    height: 100%;
+    /* height: 500px; */
+}
+
+.box2 .point {
+    display: flex;
+    gap: 1%;
+    justify-content: center;
+    z-index: 1;
+}
+
+.box2 .point a {
+    text-decoration: none;
+    color: none;
+}
+
+.box2 .point img {
+    width: 30px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.557);
+    margin-bottom: 30px;
+    border-radius: 50%;
+}
+
+.box2 .gal_gal {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.box2 .gal_gal>div:nth-child(1) {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.box2 .gal_gal>div:nth-child(2) {
+    grid-row: 1;
+    grid-column: 1;
+    align-self: end;
+}
+
+.box>div:nth-child(1) {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+
+    justify-self: center;
+    align-self: center;
+    padding: 50px;
+}
+
+h1 {
+    margin-bottom: 8%;
+    font-size: 35pt;
+}
+
+.p1 {
+    text-align: justify;
+    font-size: 16pt;
+    margin-bottom: 20px;
+}
+
+.p2 {
+    text-align: justify;
+    font-size: 12pt;
+    margin-bottom: 20px;
+}
+
+.start {
+    background-color: white;
+    border: 1px solid slategray;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 30px;
+    color: slategray;
+    font-size: 14pt;
+}
+
+.box1 {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    border-bottom: 1px solid slategray;
+    grid-template-rows: minmax(350px, auto);
+}
+
+.box1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.box1 div:nth-child(2) {
+    justify-self: center;
+    align-self: center;
+    /* background-color: rgb(224, 203, 244); */
+    width: 80%;
+}
+
+
+
+.box2 {
+    display: grid;
+    grid-template-columns: 2.7fr 1.3fr;
+    border-bottom: 1px solid slategray;
+    grid-template-rows: minmax(350px, auto);
+}
+
+.box2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.box2 div:nth-child(1) {
+    justify-self: center;
+    align-self: center;
+    /* background-color: rgb(231, 209, 253); */
+    width: 80%;
+}
+
+.box1 h3,
+.box2 h3 {
+    margin-bottom: 5%;
+    font-size: 25pt;
+    font-weight: normal;
+}
+
+.box1 p,
+.box2 p {
+    text-align: justify;
+    font-size: 12pt;
+    margin-bottom: 20px;
+}
+
+.More {
+    background-color: white;
+    border: 1px solid slategray;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px 25px;
+    color: slategray;
+    font-size: 14pt;
+}
+
+/* ------------------------------- */
+.gal {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.gal h3 {
+    margin-bottom: 3%;
+    /* margin-top: 5%; */
+    font-size: 25pt;
+    font-weight: normal;
+    text-align: center;
+}
+
+.galImg {
+    width: 100%;
+}
+
+
+/* --------------------------------------- */
+.tab {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 3% 5% 3%;
+}
+
+.tab h3 {
+    grid-column: 1/ span 3;
+    grid-row: 1;
+    margin-bottom: 5%;
+    font-size: 25pt;
+    font-weight: normal;
+    text-align: center;
+}
+
+.tab div {
+    padding: 15%;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+}
+
+.tab h4 {
+    padding-top: 2%;
+    padding-bottom: 8%;
+}
+
+.boxBorder1,
+.boxBorder2,
+.boxBorder4,
+.boxBorder5 {
+    border-right: 1px solid slategray;
+}
+
+.boxBorder1,
+.boxBorder2,
+.boxBorder3 {
+    border-bottom: 1px solid slategray;
+}
+
+/* ------------форма-------------- */
+
+.form h3 {
+    margin-bottom: 5%;
+    font-size: 25pt;
+    font-weight: normal;
+    text-align: center;
+}
+
+.FormsTwo {
+    /* background-color: aquamarine; */
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 1%;
+    /* justify-items: center; */
+    width: 60%;
+    margin: auto;
+}
+
+.FormsTwo .block1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 7%;
+
+    width: 100%;
+    padding: 1% 3%;
+    /* background-color: cadetblue; */
+    box-sizing: border-box;
+
+}
+
+.block1 input {
+    padding: 3%;
+    width: 90%;
+}
+
+.block1 input::placeholder {
+    color: slategray;
+    font-size: 13pt;
+    font-style: italic;
+
+}
+
+.block1 div {
+    font-weight: bold;
+}
+
+/* -------2-й блок----------- */
+
+.FormsTwo .block2 {
+    display: flex;
+    gap: 2%;
+    /* background-color: brown; */
+    width: 100%;
+    padding: 1% 3%;
+    box-sizing: border-box;
+}
+
+.FormsTwo .block2 div {
+    font-weight: bold;
+}
+
+/* -------3-й блок----------- */
+
+
+.FormsTwo>div:nth-child(3) {
+    padding: 1% 3%;
+    box-sizing: border-box;
+    /* width: 100%; */
+
+    /* background-color: blueviolet; */
+}
+
+.FormsTwo select {
+    margin-top: 1%;
+    padding: 1%;
+    width: 100%;
+}
+
+.FormsTwo>div:nth-child(3) div {
+    font-weight: bold;
+}
+
+/* -------4-й блок----------- */
+.FormsTwo>div:nth-child(4) {
+    padding: 1% 3%;
+    box-sizing: border-box;
+    /* background-color: beige; */
+}
+
+.FormsTwo textarea {
+    margin-top: 1%;
+    width: 100%;
+}
+
+.FormsTwo>div:nth-child(4) div {
+    font-weight: bold;
+}
+
+/* -------5-й блок----------- */
+.FormsTwo>div:nth-child(5) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    padding: 1% 3%;
+    box-sizing: border-box;
+}
+
+.FormsTwo>div:nth-child(5) .send {
+    justify-self: end;
+
+    background-color: white;
+    border: 1px solid slategray;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px 20px;
+    color: slategray;
+    font-size: 12pt;
+}
+
+.FormsTwo>div:nth-child(5) label {
+    font-weight: bold;
+}
+
+.form {
+    padding-bottom: 5%;
+    border-bottom: 1px solid slategray;
+}
+
+/* ---------подвал------------ */
+footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 50%;
+    padding: 5% 3%;
+}
+
+footer .box_img {
+    display: flex;
+    gap: 3%;
+
+    justify-self: center;
+}
+
+footer .box_img div {
+    width: 50px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 3%;
+    border: 2px solid slategray;
+}
+
+footer .box_img img {
+    width: 100%;
+    height: 100%;
+}
+
+footer .copy {
+    justify-self: center;
+    text-transform: uppercase;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.612);
+    display: none;
+}
+
+.overlay .close-popup img {
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.overlay .popup {
+    background-color: cadetblue;
+    padding: 50px;
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    font-size: 14pt;
+}
+
+.overlay .popup button {
+    font-size: 14pt;
+    padding: 14px 28px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: orange;
+    
+}
+
+.overlay .popup button:hover {
+    background-color: rgb(44, 69, 105);
+    color: white;
+    cursor: pointer;
+}
+
+/* 2 МО: покупка */
+
+.shop {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.612);
+    display: none;
+}
+
+.shop .close-popup_shop img {
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.shop .popup_shop {
+    background-color: cadetblue;
+    padding: 50px;
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    font-size: 14pt;
+}
+
+.overlay .popup_shop button {
+    font-size: 14pt;
+    padding: 14px 28px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: orange;
+    
+}
+
+.overlay .popup_shop button:hover {
+    background-color: rgb(44, 69, 105);
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 600px) and (max-width: 850px) {
+
+    /* навигация (заголовок) */
+    header {
+        padding: 3%;
+        grid-template-columns: 1fr;
+    }
+
+    .head_two {
+        /* Картинки */
+        display: none;
+    }
+
+    /* se1 Блоки с картинками и кнопками */
+
+    .box {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    h1 {
+        /* margin-bottom: 8%; */
+        font-size: 25pt;
+    }
+
+    .p1 {
+        font-size: 14pt;
+    }
+
+    .p2 {
+        font-size: 10pt;
+    }
+
+    .start {
+        padding: 15px 20px;
+        font-size: 12pt;
+    }
+
+    /* ------------------------------------- */
+    .box1 {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .box1 div:nth-child(2) {
+        padding: 7% 3%;
+    }
+
+    .box2 {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .box2 div:nth-child(1) {
+        padding: 7% 3%;
+    }
+
+    .box1 h3,
+    .box2 h3 {
+        font-size: 22pt;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .box1 p,
+    .box2 p {
+        font-size: 10pt;
+    }
+
+    .More {
+        padding: 15px 20px;
+        font-size: 12pt;
+        margin-bottom: 10%;
+    }
+
+    /* галерея */
+
+
+    .galImg {
+        width: 100%;
+    }
+
+
+
+    /* "таблица" */
+    .tab {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .tab h3 {
+        grid-column: 1/ span 2;
+    }
+
+
+    .boxBorder1,
+    .boxBorder3,
+    .boxBorder5 {
+        border-right: 1px solid slategray;
+    }
+
+    .boxBorder1,
+    .boxBorder4,
+    .boxBorder3 {
+        border-bottom: 1px solid slategray;
+    }
+
+    .boxBorder2,
+    .boxBorder4 {
+        border-right: none;
+    }
+
+    /* подвал */
+
+    footer {
+        padding-bottom: 10%;
+    }
+
+    footer .box_img div {
+        width: 40px;
+        height: 20px;
+        border-radius: 50%;
+        padding: 3%;
+        border: 2px solid slategray;
+    }
+
+    .block1 input::placeholder {
+        font-size: 10pt;
+    }
+
+    .FormsTwo>div:nth-child(5) label {
+        align-self: center;
+    }
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+    /* навигация */
+
+    .head_two {
+        /* Картинки */
+        display: none;
+    }
+
+    .head_one {
+        display: inline-block;
+    }
+
+    .head_one .links {
+        display: none;
+        background-color: rgba(95, 158, 160, 0.678);
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 100px 25px;
+        height: 100%;
+        font-size: 14pt;
+    }
+
+    .head_one .links div {
+        margin-bottom: 20px;
+    }
+
+    .head_one .links div a:hover {
+        color: rgb(13, 77, 151);
+    }
+
+    .logo {
+        font-size: 12pt;
+        padding: 10%;
+    }
+
+    header {
+        border-bottom: none;
+    }
+
+    /* блок с картинками и текстом */
+
+    .box,
+    .box1 {
+        grid-template-columns: 1fr;
+        border-bottom: none;
+    }
+
+    .box h1 {
+        font-weight: normal;
+    }
+
+    .box div:nth-child(1) {
+        grid-row: 2;
+    }
+
+    .start,
+    .More {
+        padding: 15px 20px;
+        font-size: 12pt;
+        margin-bottom: 10%;
+    }
+
+    .box1 div:nth-child(2) {
+        padding: 10% 0;
+    }
+
+    .box2 {
+        grid-template-columns: 1fr;
+    }
+
+    .box2 div:nth-child(1) {
+        grid-row: 2;
+        padding: 10% 0;
+    }
+
+    .box1 h3,
+    .box2 h3,
+    .box1 p,
+    .box2 p {
+        margin-bottom: 10%;
+    }
+
+    /* галерея */
+
+    .galImg .galim2,
+    .galImg .galim3,
+    .galImg .galim4 {
+        display: none;
+    }
+
+    .gal {
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    .galImg {
+        grid-template-columns: 1fr;
+    }
+
+    /* "таблица" */
+
+    .tab {
+        grid-template-columns: 1fr;
+        margin: 0 10%;
+    }
+
+    .tab h3 {
+        grid-column: 1;
+    }
+
+    .boxBorder1,
+    .boxBorder2,
+    .boxBorder3,
+    .boxBorder4,
+    .boxBorder5,
+    .boxBorder6 {
+        border-right: none;
+        border-bottom: 1px solid slategray;
+    }
+
+
+    /* форма */
+
+
+    .FormsTwo {
+        width: 80%;
+        padding-bottom: 15%;
+    }
+
+    .FormsTwo .block1 {
+        grid-template-columns: 1fr;
+        margin-bottom: 10%;
+    }
+
+    .FormsTwo .block2 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .FormsTwo .block2 div {
+        grid-column: 1/ span 3;
+        margin-bottom: 2%
+    }
+
+    .FormsTwo>div:nth-child(5) label {
+        align-self: center;
+    }
+
+
+    .form h3 {
+        padding-top: 15%;
+    }
+
+
+    /* подвал */
+    footer {
+        padding: 10% 3%;
+    }
+
+
+    footer .box_img div {
+        width: 30px;
+        height: 20px;
+    }
+
+
+    /* иконка меню */
+
+    .menu {
+        display: block;
+
+        justify-self: end;
+        align-self: center;
+        padding-right: 10%;
+    }
+
+    .menu img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+/* Карусель */
+
+.gal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gal-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.area {
+    width: 1000px;
+    height: 400px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.container {
+    position: relative;
+    margin: 20px auto;
+    width: 250px;
+    height: 200px;
+    perspective: 700px;
+    perspective-origin: 100px 0px;
+}
+
+.cube {
+    width: inherit;
+    height: inherit;
+    transform-style: preserve-3d ;
+    transition: 1s;
+    transform: rotate(0deg);
+}
+
+.side {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.side img {
+    width: 100%;
+    height: max-content;
+}
+
+.front {
+    transform: translateZ(350px);
+}
+
+.first {
+    transform: rotateY(-45deg) translateZ(350px);
+}
+
+.second {
+    transform: rotateY(-90deg) translateZ(350px);
+}
+
+.third {
+    transform: rotateY(-135deg) translateZ(350px);
+}
+
+.fourth {
+    transform: rotateY(180deg) translateZ(350px);
+}
+
+.fifth {
+    transform: rotateY(135deg) translateZ(350px);
+}
+
+.sixth {
+    transform: rotateY(90deg) translateZ(350px);
+}
+
+.seventh {
+    transform: rotateY(45deg) translateZ(350px);
+}
+
+.arrow {
+    width: 60px;
+    height: max-content;
+    cursor: pointer;
+}
+
+.arrow img {
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,78 @@
+section{
+    width: 80%;
+    margin: auto;
+    background-color: beige;
+}
+
+/* .one{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    
+
+}
+
+.one p{
+    justify-self: start;
+    align-self: center;
+    background-color: cadetblue;
+}
+
+.one img{
+    justify-self: end;
+    align-self: center;
+}
+
+.two{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    
+
+}
+
+.two p{
+    justify-self: end;
+    align-self: center;
+    background-color: rgb(46, 232, 81);
+}
+
+.two img{
+    justify-self: start;
+    align-self: center;
+} */
+
+
+
+.one{
+    display: flex;
+      
+}
+
+.one p{
+    width: 60%;
+    background-color: cadetblue;
+}
+
+.one div{
+    width: 40%;
+  
+}
+
+.two{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    
+
+}
+
+.two p{
+    justify-self: end;
+    align-self: center;
+    background-color: rgb(46, 232, 81);
+}
+
+.two img{
+    justify-self: start;
+    align-self: center;
+}
+
+
